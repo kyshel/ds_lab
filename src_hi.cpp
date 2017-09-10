@@ -13,7 +13,7 @@ int main(){
 void printTree(){
 	int index = 0; 
 
-	for (int i = 1; i < 10; i++)
+	for (int i = 1; i < 20; i++)
 	{
 		if (i > pow(2,index))
 		{
@@ -21,7 +21,7 @@ void printTree(){
 			index++;
 		}
 
-		cout << i ;
+		cout << i << " ";
 	}
 
 	cout << "\n";
