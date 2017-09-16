@@ -1,39 +1,19 @@
-#include <iostream>
-#include <math.h>
-
-using namespace std;
-
-void printTree();
-void test();
+#include "SqList.h"
+#include "test.h"
 
 int main(){
-	//printTree();
+	// SqList L;
+	// InitSqList(L);
+
+	// InsertList(L,1,1);
+	// InsertList(L,1,2);
+	// InsertList(L,1,3);
+	// InsertList(L,1,4);
+
+	// PrintListInfo(L);
+
 	test();
+
 	return 0;
 }
 
-void printTree(){
-	int index = 0; 
- 
-	for (int i = 1; i < 20; i++)
-	{
-		if (i > pow(2,index))
-		{
-			cout << endl ;
-			index++;
-		}
-
-		cout << i << " ";
-	}
-
-	cout << "\n";
-} 
-
-void test(){
-	int p;
-	p= 10;
-
-	cout << "p is " << p << endl;
-	//cout << "*p is " << *p;
-	cout << "&p is " << &p << endl;
-}
