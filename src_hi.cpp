@@ -30,7 +30,7 @@ void printTree(){
 } 
 
 void test(){
-	int p ;
+	int p;
 	p= 10;
 
 	cout << "p is " << p << endl;
